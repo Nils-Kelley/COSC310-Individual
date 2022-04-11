@@ -21,7 +21,7 @@
                                                (was du benutzt um dein händy aufzuladen)
 - **GUI Changes**: See 'GUI1' class for overview of implementation 
 - Increased the screen size (horizontally) by ~20%
-- Changes color(s) from Black and White to White and Blue for easier readability and better appeal (in my opinion)
+- Changes color(s) from Black and White to White and Black for easier readability and better appeal (in my opinion)
 - Changed the initial / openning messages to the user to adapt to the new features + a little nicer of a design (in my opinion) 
  See 'Device' class for overview of implementation
                       - Method: Type 'define' before keyword for its definition                                               
