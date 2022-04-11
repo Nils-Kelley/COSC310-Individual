@@ -1,7 +1,7 @@
 # COSC-310
 - Name: Nils Kelley 
 - Student Number: 80904394
-- Assignment: Final Projecct - A modification of Team 30's Assignment #3!
+- Final Projecct - A modification of Team 30's Assignment #3!
 
 **Things I added**
 - **(Google Translate API) Translation Feature**: The program is now able to translate the keywords (with their definitions) into German.
