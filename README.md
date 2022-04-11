@@ -5,20 +5,53 @@
 
 **Things I added**
 - **(Google Translate API) Translation Feature**: The program is now able to translate the keywords (with their definitions) into German.
-                      - See 'Device' class for overview of implementation
-                      - Method: Type 'translate' before keyword for its definition
-                                 - (Example) 
-                                 -You: translate power 
-                                 -Chatbot: Power - Supply (a device - i.e., your phone) with mechanical or electrical energy
+         See 'Device' class for overview of implementation
+        
+                      - Method: Type 'translate' before keyword for its translation and definition in GERMAN
+                                 
+                               (Example) 
+                               
+                               You: translate power                            
+                               Chatbot:  ($) KEYWORD: Power (i.e., electricity)
+                                 
+                                         ($) TRANSLATION: Elektrizität
+                                           
+                                         ($) DEFINITION IN GERMAN: Elektrische Energie, elektrischer Strom
+                                            
+                                              (was du benutzt um dein händy aufzuladen) 
+                             
 - **(Wikipedia API) Definition Feature**: The program is now equipped to define the keywords to the user upon request.
  See 'Device' class for overview of implementation
-                      - Method: Type 'define' before keyword for its definition
-                                 - (Example) 
-                                 -You: define power  
-                                 -Chatbot:  ($) KEYWORD: Power (i.e., electricity)
-                                            ($) TRANSLATION: Elektrizität
-                                            ($) DEFINITION IN GERMAN: Elektrische Energie, elektrischer Strom
-                                               (was du benutzt um dein händy aufzuladen)
+                      
+                      -Method: Type 'define' before keyword for its definition
+                                 
+                                (Example) 
+                                 
+                                You: define power
+                                Chatbot: Power - Supply (a device - i.e., your phone) with mechanical or electrical energy
+                                 
+  
+  
+  **View Keyword List Feature**: The program is now equipped to list all keywords upon request from user
+  See 'Device' class for overview of implementation 
+  
+                        -Method: Type 'keywords' to view list of keywords
+                                 
+                                (Example) 
+                                 
+                                You: I would like to view the keywords
+                                Chatbot: List of Keywords: 
+                                   (-)    -power 
+                                   (-)    -bright 
+                                   (-)    -turn on 
+                                   (-)    -dim 
+                                   (-)    -slow 
+                                   (-)    -bluetooth 
+                                   (-)    -iCloud / Phone (translate only)
+                                   (-)    -touch screen 
+                                   (-)    -internet 
+                                   (-)    -cellular 
+   
 - **GUI Changes**: See 'GUI1' class for overview of implementation 
 - Increased the screen size (horizontally) by ~20%
 - Changes color(s) from Black and White to White and Black for easier readability and better appeal (in my opinion)
@@ -26,8 +59,10 @@
  See 'Device' class for overview of implementation
                       - Method: Type 'define' before keyword for its definition                                               
                                                
-                                   
-**Overview** **from** **before**: 
+   
+   
+   
+**Overview from Before (Everything before this I changed, all of this stuff was worked on with team30 for assignment 3)**: 
 This code is a conversation between a user and a chat bot to discuss problems revolving around phone repair
 It is comprised of the following classes:
 
